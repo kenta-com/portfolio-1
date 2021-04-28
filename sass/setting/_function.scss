@@ -1,0 +1,21 @@
+//theme color1 茶色
+$title-color:#be9628;
+//theme color2 こい茶色
+$sub-ttl:#b6ac75;
+$back:#f7efce;
+//theme color3 緑
+$green: #5B8D22;
+$green-hover:#44720b;
+$green-wave:rgba(56, 117, 6, 0.89);
+//back color 4 白
+$back2:#ffffff;
+//accent アクセント
+$accent:#e48257;
+//全体の指示
+body{
+  position: relative;
+  z-index: -100;
+}
+img{
+  object-fit: cover;
+}

@@ -1,0 +1,113 @@
+.contact {
+    background-color: $back2;
+    padding: 120px 0;
+    position: relative;
+    @include mq(sp) {
+        overflow: hidden;
+    }
+    &__title {
+        font-size: 50px;
+        text-align: center;
+        color: $title-color;
+    }
+}
+
+/* Contact Form7 */
+.contact textarea {
+    border: 1px solid black;
+    @include mq(sp) {
+        width: 240px;
+    }
+}
+.contact p {
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.contact7 {
+    margin: 0 auto;
+    padding: 80px 0 0;
+    max-width: 1000px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    @include mq(tab) {
+        flex-direction: column;
+        align-items: center;
+    }
+    &__txt {
+        border-bottom: 0.5px solid gray;
+    }
+}
+.contact7 dd {
+    width: 50%;
+    margin: 0 0 30px;
+}
+.contact7 dt {
+    @include mq(tab) {
+        padding-left: 0;
+    }
+    padding-left: 160px;
+    width: calc(50% - 5px);
+    margin-right: 5px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+/* 必須マーク */
+.contact7 .must {
+    background: #FF1A00;
+}
+
+/* 任意マーク */
+.contact7 .optional {
+    background: #999;
+}
+
+.contact7 .must,
+.contact7 .optional {
+    color: #FFF;
+    border-radius: 3px;
+    font-size: 10px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+}
+.btn_contact7 {
+    text-align: center;
+}
+.btn_contact7 input {
+    padding: 10px;
+    background-color: $green;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-align: center;
+    border: 1px solid $green;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+    &:hover {
+        background-color: #FFF;
+        color: $green;
+    }
+}
+.btn_contact7 input:hover {
+    background-color: #FFF;
+    color: $green;
+}
+.wpcf7-response-output {
+    text-align: center;
+}
+.wpcf7 form .wpcf7-response-output {
+    width: 80%;
+    margin: 10px auto !important;
+    padding: 0 !important;
+    line-height: 1.5;
+}
+.ajax-loader {
+    position: absolute !important;
+}

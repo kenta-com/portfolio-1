@@ -1,0 +1,25 @@
+
+@mixin sec-title {
+    //縦書き
+    position: absolute;
+    @include mq(pc) {
+        writing-mode: vertical-rl;
+    }
+    @include mq(sp) {
+        writing-mode: vertical-rl;
+    }
+    left: 5%;
+    top: 120px;
+    font-size: 150px;
+    letter-spacing: 10px;
+    color: $title-color;
+    margin: 0;
+    @include mq(tab) {
+        letter-spacing: 20px;
+        // font-size: 100px;
+    }
+    @include mq(sp) {
+        letter-spacing: 15px;
+        // font-size: 70px;
+    }
+}

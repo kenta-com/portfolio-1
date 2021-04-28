@@ -1,0 +1,116 @@
+//タイトルフォント
+@import url("https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c");
+.service {
+    position: relative;
+    z-index: -1;
+    &__slide {
+        height: 1500px;
+        transform: translate(-100%, 0);
+        background: $back;
+        width: 100%;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: .5s ease-out;
+    }
+    &__slide.show {
+        transform: translate(0, 0) !important;
+    }
+    &__title {
+@include sec-title;
+    }
+
+    &__table {
+        box-sizing: border-box;
+        padding: 40px 40px 60px;
+        @include mq(tab) {
+            padding: 15px 15px 25px;
+        }
+        background-color: rgba(250, 248, 244, 0.904);
+        display: flex;
+        position: absolute;
+        z-index: 1;
+        width: 70%;
+        box-shadow: 0 0 4px rgba(77, 63, 63,0.5);
+        @include mq(tab) {
+            width: 80%;
+        }
+        @include mq(sp) {
+            left: 10%;
+        }
+    }
+    &__row {
+        display: flex;
+        flex-direction: column;
+        &:nth-child(2) th {
+            padding-top: 5px;
+        }
+    }
+    &__head {
+        font-size: 24px;
+        padding-bottom: 15px;
+        display: inline-block;
+        position: relative;
+        font-weight: bold;
+        color: $green;
+        &:before {
+            content: "";
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            width: 120%;
+        }
+    }
+    &__data {
+        line-height: 1.5;
+        padding: 40px 0 7px;
+        font-size: 20px;
+        font-weight: 100;
+        color: $green;
+    }
+    &__txt {
+        letter-spacing: 2px;
+        line-height: 1.5;
+    }
+    &__icon {
+        padding-right: 10px;
+    }
+}
+//アニメージョン///////////////////////////////////////
+.fixed {
+    position: fixed;
+}
+.suggestion{
+    opacity: 0;
+    left: -50%;
+    top: 10%;
+}
+.skill{
+    opacity: 0;
+    left:-50%;
+    top: 60%;
+}
+.slide-suggestion{
+    opacity: 1;
+    left:20%;
+    transition-duration: 1s;
+    @include mq(tab){
+        left:10%;
+    }
+    @include mq(sp){
+        transition-duration: .7s;
+    }
+}
+.slide-skill{
+    opacity: 1;
+    left: 20%;
+    @include mq(tab){
+        left:10%;
+    }
+    transition-duration: 1s;
+    @include mq(sp){
+        transition-duration: .7s;
+    }
+}
+.none{
+    display: none;
+}

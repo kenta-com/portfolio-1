@@ -1,0 +1,16 @@
+$initType: 'normal';
+@mixin _btn($type:$initType){
+
+  //共通スタイル
+
+  //サイト共通ボタンのスタイル 1
+  @if( $type == 'normal' ){
+    //スタイル
+  }
+
+  //サイト共通ボタンのスタイル 2
+  @else if( $type == 'large' ){
+    //スタイル
+  }
+
+}

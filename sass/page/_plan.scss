@@ -1,0 +1,22 @@
+.plan{
+  &__title{
+    color: $title-color;
+    padding-top: 120px;
+    font-size: 50px;
+    text-align: center;
+  }
+  &__list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  &__item{
+opacity: 0;
+transition: .5s;
+  }
+}
+.active{
+  opacity: 1;
+  transition: .5s;
+}

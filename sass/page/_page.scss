@@ -1,0 +1,56 @@
+.page {
+    @include container;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &-title {
+        font-size: 50px;
+        text-align: center;
+        padding: 120px 0;
+        color: $title-color;
+    }
+    &-sub {
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 24px;
+    }
+    h3 {
+        padding: 10px 0;
+        font-weight: bold;
+    }
+}
+.page-left {
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+    background-color: $green;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 20px;
+    @include mq(sp) {
+        padding: 15px;
+    }
+    //headerの余白上20px burger.scss>#naviでハンバーガの位置調整をしている
+    &:hover {
+        animation: hover 0.5s infinite alternate;
+        opacity: 0.5;
+        transition: 0.5s;
+    }
+}
+//twitter-icon
+.fa-home {
+    font-size: 30px;
+    @include mq(sp) {
+        font-size: 25px;
+    }
+    color: white;
+}
+.page img {
+    transition: 0.5s;
+    &:hover {
+        transition: 0.5s;
+        opacity: 0.5;
+    }
+}
+.page p {
+    line-height: 1.5;
+}

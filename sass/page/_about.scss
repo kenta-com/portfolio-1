@@ -1,0 +1,69 @@
+.about-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include container;
+  padding: 120px 0;
+  @include mq(tab){
+    flex-direction: column;
+  }
+}
+/*プロフィール枠*/
+#about {
+  box-shadow: 0 -5px 10px rgba(0,0,0,0.1);
+  background-color: $back2;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+#about p {
+  line-height: 1.8;
+}
+/*この記事を書いた人の見出し*/
+#about p.label {
+  text-align: center;
+  font-size: 50px;
+  color: $title-color;
+  padding-top:120px;
+}
+/*名前*/
+#about p.author_name {
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+}
+/*名前下の下線*/
+#about p.author_name::after {
+  content: "";
+  border-bottom: solid 3px $green;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+}
+
+/*画像サイズ*/
+#about  img {
+  border: 5px solid $green;
+  width: 35%;
+  height: 80%;
+  margin-right: 15%;
+  object-fit: cover;
+  @include mq(tab){
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+}
+/*右側テキストブロック*/
+.author_txt{
+  font-size: 16px;
+  margin: 15px 0;
+  &--border{
+    border-bottom: 1px dotted #dddddd;
+  }
+}
+.slush{
+  padding: 0 5px;
+}

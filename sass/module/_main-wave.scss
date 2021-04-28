@@ -1,0 +1,56 @@
+//keyframes集/////////////////////////
+@keyframes drift {
+    from {
+        transform: rotate(0deg);
+    }
+    from {
+        transform: rotate(360deg);
+    }
+}
+@keyframes trans {
+    from {
+        width: 0;
+        height: 0;
+    }
+    40% {
+        right: 50px;
+        width: 2000px;
+        height: 2000px;
+    }
+    to {
+        width: 500px;
+        height: 500px;
+    }
+}
+//keyframesここまで
+.wave {
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+    position: fixed;
+    right: -250px;
+    top: -300px;
+    @include mq(tab){
+        right: -300px;
+    }
+    @include mq(sp) {
+        right: -380px;
+    }
+    opacity: 1;
+    //一番上
+    background: $green-wave;
+    border-radius: 43%;
+    opacity: .9;
+    animation: drift 6000ms infinite linear, trans 2.4s ease-in-out 1.2s forwards;
+}
+.wave.-three {
+    //２番目
+    background: $green-wave;
+    opacity: 0.4;
+    animation: drift 8000ms infinite linear, trans 2.4s ease-in-out 1.4s forwards;
+}
+//3番目
+.wave.-two {
+    animation: drift 10000ms infinite linear, trans 2.4s ease-in-out 1.3s forwards;
+    opacity: 0.1;
+    background: yellow;
+}
+
