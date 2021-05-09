@@ -947,19 +947,14 @@ img {
 }
 
 .scroll {
-  position: absolute;
-  top: 12%;
+  position: relative;
+  text-align: center;
+  top: 25%;
   left: 50%;
   display: none;
   transform: translate(-50%, -50%);
   text-decoration: none;
   padding-top: 60px;
-}
-
-@media screen and (max-width: 767px) {
-  .scroll {
-    top: 80%;
-  }
 }
 
 .scroll span {
@@ -1255,6 +1250,7 @@ img {
 
 .works-content {
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -1276,13 +1272,18 @@ img {
   font-size: 24px;
   padding-bottom: 5px;
   font-weight: bold;
+  align-items: 2;
 }
 
-.works-skill__list {
+.works-content__skill {
+  line-height: 2;
+}
+
+.works-content__list {
   margin-bottom: 10px;
 }
 
-.works-skill__item {
+.works-content__item {
   margin: 5px 0;
 }
 

@@ -62,17 +62,17 @@
         <tr class="service__row">
             <th class="service__data">
                 デザインツール</th>
-            <td class="service__txt">Adobe XD, Photoshop</td>
+            <td class="service__txt">Adobe XD, Photoshop, Illustrator</td>
         </tr>
         <tr class="service__row">
             <th class="service__data">
                 プログラミング</th>
-            <td class="service__txt">HTML, CSS, JS(Jquery), Wordpress</td>
+            <td class="service__txt">HTML, CSS, JS(Jquery), Wordpress,Git</td>
         </tr>
         <tr class="service__row">
             <th class="service__data">
                 その他</th>
-            <td class="service__txt">Bootstrap, SCSS, BEM, FLOCSS, 吉本式BEM設計, 英語翻訳, Github, SEO対策</td>
+            <td class="service__txt">SCSS, BEM, FLOCSS, 吉本式BEM設計, 英語翻訳, Github, SEO対策</td>
         </tr>
     </table>
 </section>
@@ -90,10 +90,10 @@
                 target="_blank">
                 <div class="works-content">
                     <h3 class="works-content__title">Photoshopからのコーディング</h3>
-                    <p class="works-skill">使用スキル</p>
-                    <ul class="worls-skill__list">
-                        <li class="works-skill__item">HTML/CSS/JS/Wordpress</li>
-                        <li class="works-skill__item">詳しく見る</li>
+                    <p class="works-content__skill">使用スキル</p>
+                    <ul class="works-content__list">
+                        <li class="works-content__item">HTML/CSS/JS/Wordpress</li>
+                        <li class="works-content__item">詳しく見る</li>
                     </ul>
                 </div>
             </a>
@@ -109,10 +109,10 @@
                 target="_blank">
                 <div class="works-content">
                     <h3 class="works-content__title">現在私が運営しているコミュニティ</h3>
-                    <p class="works-skill">使用スキル</p>
-                    <ul class="worls-skill__list">
-                        <li class="works-skill__item">HTML/CSS/JS</li>
-                        <li class="works-skill__item">詳しく見る</li>
+                    <p class="works-content__skill">使用スキル</p>
+                    <ul class="worls-content__list">
+                        <li class="works-content__item">HTML/CSS/JS</li>
+                        <li class="works-content__item">詳しく見る</li>
                     </ul>
                 </div>
             </a>
@@ -128,10 +128,10 @@
                 target="_blank">
                 <div class="works-content">
                     <h3 class="works-content__title">サイト模写</h3>
-                    <p class="works-skill">使用スキル</p>
-                    <ul class="worls-skill__list">
-                        <li class="works-skill__item">HTML/CSS/JS</li>
-                        <li class="works-skill__item">詳しく見る</li>
+                    <p class="works-content__skill">使用スキル</p>
+                    <ul class="worls-content__list">
+                        <li class="works-content__item">HTML/CSS/JS</li>
+                        <li class="works-content__item">詳しく見る</li>
                     </ul>
                 </div>
             </a>
@@ -146,10 +146,29 @@
                     <h3 class="works-content__title">
                         ポートフォリオ
                     </h3>
-                    <p class="works-skill">使用スキル</p>
-                    <ul class="worls-skill__list">
-                        <li class="works-skill__item">HTML/CSS/JS/Wordpress</li>
-                        <li class="works-skill__item">詳しく見る</li>
+                    <p class="works-content__skill">使用スキル</p>
+                    <ul class="worls-content__list">
+                        <li class="works-content__item">HTML/CSS/JS/Wordpress</li>
+                        <li class="works-content__item">詳しく見る</li>
+                    </ul>
+                </div>
+            </a>
+        </div>
+             <div class="works__box">
+            <img
+                class="works__picture"
+                src="<?php echo get_template_directory_uri(); ?>/img/food.jpg"
+                alt="">
+            <a
+                class="works__link"
+                href="<?php echo get_permalink( get_page_by_path( 'food' )->ID );?>"
+                target="_blank">
+                <div class="works-content">
+                    <h3 class="works-content__title">XDでデザイン</h3>
+                    <p class="works-content__skill">使用スキル</p>
+                    <ul class="works-content__list">
+                        <li class="works-content__item">Adobe XD, Photoshop</li>
+                        <li class="works-content__item">詳しく見る</li>
                     </ul>
                 </div>
             </a>

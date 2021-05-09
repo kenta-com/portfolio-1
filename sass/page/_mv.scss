@@ -51,11 +51,9 @@
 }
 ////////////////////////////////////////
 .scroll {
-    position: absolute;
-    top: 12%;
-    @include mq(sp) {
-        top: 80%;
-    }
+    position: relative;
+    text-align: center;
+    top: 25%;
     left: 50%;
     display: none;
     -webkit-transform: translate(-50%, -50%);

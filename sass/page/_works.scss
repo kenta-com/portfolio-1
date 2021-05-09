@@ -44,6 +44,7 @@
 }
 .works-content {
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -62,10 +63,11 @@
         font-size: 24px;
         padding-bottom: 5px;
         font-weight: bold;
+        align-items: 2;
     }
-
+&__skill{
+    line-height: 2;
 }
-.works-skill{
     &__list{
         margin-bottom: 10px;
     }
