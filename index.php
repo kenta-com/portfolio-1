@@ -46,12 +46,12 @@
         </tr>
         <tr class="service__row">
             <th class="service__data">
-                Wordpress導入</th>
-            <td class="service__txt">Webサイトに動的な機能(ex.お知らせ・ブログの投稿、お問い合わせフォームetc..)を実装します</td>
+                Wordpress,Shopify導入</th>
+            <td class="service__txt">動的なサイト、ECサイトを構築します</td>
         </tr>
         <tr class="service__row">
             <th class="service__data">その他</th>
-            <td class="service__txt">Webページ修正、新機能実装などご要望にあわせて対応させていただきます</td>
+            <td class="service__txt">Webページ修正、新機能実装などご要望にあわせてご対応させていただきます</td>
         </tr>
     </table>
     <table class=" service__table skill">
@@ -67,7 +67,7 @@
         <tr class="service__row">
             <th class="service__data">
                 プログラミング</th>
-            <td class="service__txt">HTML, CSS, JS(Jquery), Wordpress,Git</td>
+            <td class="service__txt">HTML, CSS, JS(Jquery), Wordpress,,Shopify,Git</td>
         </tr>
         <tr class="service__row">
             <th class="service__data">
@@ -82,17 +82,17 @@
         <div class="works__box">
             <img
                 class="works__picture"
-                src="<?php echo get_template_directory_uri(); ?>/img/kagu.png"
+                src="<?php echo get_template_directory_uri(); ?>/img/hitokado.png"
                 alt="">
             <a
                 class="works__link"
-                href="<?php echo get_permalink( get_page_by_path( 'kagu' )->ID );?>"
+                href="<?php echo get_permalink( get_page_by_path( 'hitokado' )->ID );?>"
                 target="_blank">
                 <div class="works-content">
-                    <h3 class="works-content__title">Photoshopからのコーディング</h3>
+                    <h3 class="works-content__title">株式会社中山スポーツのコワーキングスペース</h3>
                     <p class="works-content__skill">使用スキル</p>
                     <ul class="works-content__list">
-                        <li class="works-content__item">HTML/CSS/JS/Wordpress</li>
+                        <li class="works-content__item">HTML/CSS/JS/Wordpress/design</li>
                         <li class="works-content__item">詳しく見る</li>
                     </ul>
                 </div>
@@ -101,36 +101,17 @@
         <div class="works__box">
             <img
                 class="works__picture"
-                src="<?php echo get_template_directory_uri(); ?>/img/community.png"
+                src="<?php echo get_template_directory_uri(); ?>/img/koko-state.png"
                 alt="">
             <a
                 class="works__link"
-                href="<?php echo get_permalink( get_page_by_path( 'community' )->ID );?>"
+                href="<?php echo get_permalink( get_page_by_path( 'koko-state' )->ID );?>"
                 target="_blank">
                 <div class="works-content">
-                    <h3 class="works-content__title">現在私が運営しているコミュニティ</h3>
+                    <h3 class="works-content__title">株式会社ココステートのwebサイト</h3>
                     <p class="works-content__skill">使用スキル</p>
-                    <ul class="worls-content__list">
-                        <li class="works-content__item">HTML/CSS/JS</li>
-                        <li class="works-content__item">詳しく見る</li>
-                    </ul>
-                </div>
-            </a>
-        </div>
-        <div class="works__box">
-            <img
-                class="works__picture"
-                src="<?php echo get_template_directory_uri(); ?>/img/cp.png"
-                alt="">
-            <a
-                class="works__link"
-                href="<?php echo get_permalink( get_page_by_path( 'cp' )->ID );?>"
-                target="_blank">
-                <div class="works-content">
-                    <h3 class="works-content__title">サイト模写</h3>
-                    <p class="works-content__skill">使用スキル</p>
-                    <ul class="worls-content__list">
-                        <li class="works-content__item">HTML/CSS/JS</li>
+                    <ul class="works-content__list">
+                        <li class="works-content__item">HTML/CSS/JS/Wordpress/design</li>
                         <li class="works-content__item">詳しく見る</li>
                     </ul>
                 </div>
@@ -149,25 +130,6 @@
                     <p class="works-content__skill">使用スキル</p>
                     <ul class="worls-content__list">
                         <li class="works-content__item">HTML/CSS/JS/Wordpress</li>
-                        <li class="works-content__item">詳しく見る</li>
-                    </ul>
-                </div>
-            </a>
-        </div>
-             <div class="works__box">
-            <img
-                class="works__picture"
-                src="<?php echo get_template_directory_uri(); ?>/img/food.jpg"
-                alt="">
-            <a
-                class="works__link"
-                href="<?php echo get_permalink( get_page_by_path( 'food' )->ID );?>"
-                target="_blank">
-                <div class="works-content">
-                    <h3 class="works-content__title">XDでデザイン</h3>
-                    <p class="works-content__skill">使用スキル</p>
-                    <ul class="works-content__list">
-                        <li class="works-content__item">Adobe XD, Photoshop</li>
                         <li class="works-content__item">詳しく見る</li>
                     </ul>
                 </div>

@@ -57,6 +57,11 @@
   }
 }
 /*右側テキストブロック*/
+.author{
+  @include mq(tab){
+    width: 80%;
+  }
+}
 .author_txt{
   font-size: 16px;
   margin: 15px 0;

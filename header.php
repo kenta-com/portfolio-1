@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head
-        prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/website#">
-        <meta property="og:title" content="ポートフォリオ"/>
+<head>
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://yama-kenta.com/portofolio/"/>
         <meta property="og:image" content="https://yama-kenta.com/portofolio.png"/>

@@ -1374,6 +1374,12 @@ img {
 }
 
 /*右側テキストブロック*/
+@media screen and (max-width: 1179px) {
+  .author {
+    width: 80%;
+  }
+}
+
 .author_txt {
   font-size: 16px;
   margin: 15px 0;
