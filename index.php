@@ -86,7 +86,7 @@
                 alt="">
             <a
                 class="works__link"
-                href="<?php echo get_permalink( get_page_by_path( 'hitokado' )->ID );?>"
+                href="http://nakaspo.com/hitokado/"
                 target="_blank">
                 <div class="works-content">
                     <h3 class="works-content__title">株式会社中山スポーツのコワーキングスペース</h3>
@@ -105,31 +105,13 @@
                 alt="">
             <a
                 class="works__link"
-                href="<?php echo get_permalink( get_page_by_path( 'koko-state' )->ID );?>"
+                href="https://cocostate.jp/index.html"
                 target="_blank">
                 <div class="works-content">
                     <h3 class="works-content__title">株式会社ココステートのwebサイト</h3>
                     <p class="works-content__skill">使用スキル</p>
                     <ul class="works-content__list">
                         <li class="works-content__item">HTML/CSS/JS/Wordpress/design</li>
-                        <li class="works-content__item">詳しく見る</li>
-                    </ul>
-                </div>
-            </a>
-        </div>
-        <div class="works__box">
-            <img class="works__picture" src="<?php echo get_template_directory_uri(); ?>/img/portofolio.png" alt="">
-            <a
-                class="works__link"
-                href="<?php echo get_permalink( get_page_by_path( 'portofolio' )->ID );?>"
-                target="_blank">
-                <div class="works-content">
-                    <h3 class="works-content__title">
-                        ポートフォリオ
-                    </h3>
-                    <p class="works-content__skill">使用スキル</p>
-                    <ul class="worls-content__list">
-                        <li class="works-content__item">HTML/CSS/JS/Wordpress</li>
                         <li class="works-content__item">詳しく見る</li>
                     </ul>
                 </div>
